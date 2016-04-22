@@ -195,3 +195,24 @@ footer {
 .fa {
   font-size: 1.25em;
 }
+
+/* Responzinator*/
+@media all and (max-width: 1024px) {
+   .interest-wrapper {
+      min-height: 430px;
+   }
+}
+@media all and (max-width: 768px) {
+   .interest-wrapper {
+      min-height: 200px;
+      margin-top: 50px;
+   }
+}
+@media all and (max-width: 736px) {
+   .join1 {
+      border-right: none;
+   }
+   .join2 {
+      border-left: none;
+   }
+}
