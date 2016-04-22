@@ -96,6 +96,21 @@ li a img.img-circle {
     margin: 0 auto;
 }
 
+/* Mobile Image*/
+.mobile-image {
+   background: url('../img/slide1.jpg') no-repeat;
+   background-size: cover;
+   height: 200px;
+   position: relative;
+}
+.carousel-caption1 {
+   color: #fff;
+   margin-top: 75px;
+}
+.mobile-p {
+   font-size: 18px;
+}
+
 /* Section - Interests*/
 .interest-wrapper {
    border: 1px solid #ccc;
