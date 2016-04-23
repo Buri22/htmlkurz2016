@@ -44,13 +44,6 @@ a {
    text-decoration: none;
    transition: all 0.5s ease;
 }
-a:hover, a:focus, a:active,
-.navbar-nav>li>a:focus,
-.navbar-nav>li>a:hover {
-   background-color: #c2d1f0;
-   color: #3366cc;
-   text-decoration: none;
-}
 
 section {
    height: auto;
@@ -68,6 +61,12 @@ section {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
    color: #455376;
+}
+.navbar-nav>li>a:focus, .navbar-nav>li>a:hover,
+.navbar-header>a:focus, .navbar-header>a:hover {
+   background-color: #c2d1f0;
+   color: #3366cc;
+   text-decoration: none;
 }
 .navbar-brand {
    font-weight: bold;
@@ -126,7 +125,7 @@ li a img.img-circle {
 }
 
 /* Section - Checkuj*/
-.join1, .join2 {
+.join1, .join2, .join3, .join4 {
    display: flex;
    height: 200px;
    justify-content: center;
@@ -138,6 +137,16 @@ li a img.img-circle {
 }
 .join2 {
    background: #ff9933;
+   border-left: 2px solid #fff;
+}
+.join3 {
+   background: #800000;
+   border-top: 4px solid #fff;
+   border-right: 2px solid #fff;
+}
+.join4 {
+   background: #00b33c;
+   border-top: 4px solid #fff;
    border-left: 2px solid #fff;
 }
 #join,
@@ -200,12 +209,13 @@ footer {
 @media all and (max-width: 1024px) {
    .interest-wrapper {
       min-height: 430px;
+      margin-top: 20px;
    }
 }
 @media all and (max-width: 768px) {
    .interest-wrapper {
       min-height: 200px;
-      margin-top: 50px;
+      margin-top: 30px;
    }
 }
 @media all and (max-width: 736px) {
